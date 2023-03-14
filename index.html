@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title"> <u>STUDENT SURVEY FORM</u></h1>
+
+    <p id="description">Thank you for taking the time to help us improve our Department of CS</p>
+
+    <div id="structure">
+
+        <form id="survey-form">
+
+            <label id="name-label" for="name">
+                <p>Student Name:</p>
+            </label>
+
+            <input id="name" type="text" placeholder="Enter Your Name" required>
+
+            <label id="number-label" for="number">
+                <p>Age:</p>
+            </label>
+
+            <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+
+
+            <label id="email-label" for="email">
+                <p>Email:</p>
+            </label>
+
+            <input id="email" type="email" placeholder="Enter Your Email" required>
+
+
+            <label id="email-label" for="email">
+                <p>Contact:</p>
+            </label>
+
+            <input id="Contact" type="text" placeholder="Enter Your Contact Details" required>
+
+           
+
+            <p>Which year ?</p>
+
+            <input type="radio" name="year" value="1">1st Year</input>
+            <br>
+            <input type="radio" name="year" value="2">2nd Year</input>
+            <br>
+            <input type="radio" name="year" value="3">3rd Year</input>
+            <br>
+            <input type="radio" name="year" value="4">4th Year</input>
+           
+
+            <p>Feedback:</p>
+
+            <textarea id="comment" rows="4" cols="40" placeholder="Your feedback to improve our Department"></textarea>
+             <br>
+
+            <input id="submit" type="submit" value="Submit">
+
+
+
+        </form>
+
+      </div>
+
+    </body>
+
+</html>
